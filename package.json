@@ -1,0 +1,22 @@
+{
+  "name": "ramda-workshopper",
+  "version": "0.0.1",
+  "description": "A workshopper to teach functional javascript with ramda.js",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node node_modules/workshopper/bin/makews.js exercises/menu.json",
+    "test": "standard"
+  },
+  "author": "Ryan Kois",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "workshopper-adventure": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kid-icarus/rammda-workshopper.git"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
